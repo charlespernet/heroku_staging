@@ -31,7 +31,7 @@ I assume that you already have a rails app running on your local machine.
 
   `$ heroku pipelines:add -a MY-APP-STAGING PIPELINE_NAME` 
   
-  * *note that `PIPELINE_NAME` is the one set on Step 2 if you didn't chose it is probably the same name as you production App*
+  **note that `PIPELINE_NAME` is the one set on Step 2 if you didn't chose it is probably the same name as you production App*
   
   You will be prompt for your App Stage, this one should be `staging`.
   
