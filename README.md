@@ -5,7 +5,9 @@ I assume that you already have a rails app running on your local machine.
 
 ## 1. Create an App on heroku (if it is not done yet)
 
-  If you are using Heroku CLI you can type `$ heroku create MY_APP`
+  If you are using Heroku CLI you can type the commands listed here. Of course every command can be done via your Heroku   Dashboard interface.
+  
+  To start lets create an Heroku App`$ heroku create MY_APP`
   
   * *note that you can set useful things like an App name or a region*
   
@@ -48,7 +50,7 @@ Now to deploy you have to push on the staging remote `$ git push staging master`
 
 Once you're happy with your App on staging it's time to promote it `$ heroku pipelines:promote -r staging`
 
-Here you are ! Of course note that every command can be done via your Heroku Dashboard interface.
+Here you are ! 
   
 I hope this could help some of you testing your Apps in an actual production-like environment before releasing.
 Of course do not hesitate to ping me if something is not clear enough and feel free to contribute to this gist.
